@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      color: skyblue;
+    }
+
+    table {
+      border-collapse: collapse;
+      border: 1px solid #aaa;
+    }
+
+    td {
+      width: 20px;
+      height: 20px;
+      color: red;
+      text-align: center;
+      font-size: 15px;
+      border: 1px solid #aaa;
+    }
+  </style>
+</head>
+
+<body>
+  <h3 id="f">帧编号:0</h3>
+  <h3 id="score">0</h3>
+  <div id="app"></div>
+  <script src="./js/Game.js"></script>
+  <script src="./js//Snake.js"></script>
+  <script src="./js/Food.js"></script>
+  <script>
+    var game = new Game()
+  </script>
+</body>
+
+</html>

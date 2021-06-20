@@ -24,12 +24,24 @@
       font-size: 15px;
       border: 1px solid #aaa;
     }
+
+    #snake {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    #app table {
+      margin: 0 auto;
+    }
   </style>
 </head>
 
 <body>
-  <h3 id="f">帧编号:0</h3>
-  <h3 id="score">0</h3>
+  <div id="snake">
+    <h3> 请使用'w、a、s、d'或'↑、↓、←、→'进行控制 </h3>
+    <h3 id="f">帧编号:0</h3>
+    <h3 id="score">0</h3>
+  </div>
   <div id="app"></div>
   <script src="./js/Game.js"></script>
   <script src="./js//Snake.js"></script>

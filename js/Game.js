@@ -101,7 +101,7 @@ Game.prototype.start = function () {
     game.snake.render()
     //食物
     game.food.render()
-  }, 30);
+  }, 13);
 }
 
 //清除颜色
